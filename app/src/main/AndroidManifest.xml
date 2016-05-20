@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="exmaple.acadgild.com.activitylifecycle">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <!--<activity-->
+            <!--android:name=".MainActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/ravi" >-->
+
+            <!--</activity>-->
+        <!--<activity android:name=".Prena" />-->
+        <!--<activity android:name=".AndroidTouchPinchZoomActivity" />-->
+        <!--<activity android:name=".Activity_Sahil" />-->
+        <!--<activity android:name=".Activity_ListView" />-->
+        <!--<activity android:name=".Class5.PendingIntent_1.PendingIntentActivity1" />-->
+        <!--<activity android:name=".Class5.PendingIntent_1.PendingIntentActivity2" />-->
+        <!--<activity android:name=".Class5.PendingIntent_1.Activity3" />-->
+        <!--<activity android:name=".Intents.ImplicitIntent" />-->
+        <!--<activity android:name=".Intents.ExplicitIntent">-->
+
+            <!--&lt;!&ndash; <intent-filter> &ndash;&gt;-->
+            <!--&lt;!&ndash; <action android:name="android.intent.action.MAIN" /> &ndash;&gt;-->
+
+
+            <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--&lt;!&ndash; </intent-filter> &ndash;&gt;-->
+        <!--</activity>-->
+        <!--<activity android:name=".Intents.Activity_exm" />-->
+        <!--<activity-->
+            <!--android:name=".menu.MenuTest"-->
+            <!--android:label="@string/title_activity_menu_test"-->
+            <!--android:theme="@style/Shampath.NoActionBar">-->
+            <!--&lt;!&ndash;<intent-filter>&ndash;&gt;-->
+                <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</activity>-->
+        <activity
+            android:name=".MenuAcadgild.OptionMenuExample"
+            android:label="@string/title_activity_option_menu_example"
+            >
+
+            </activity>
+
+        <!--</activity>-->
+        <!--<activity android:name=".Sqlite.AndroidSQLiteTutorialActivity">-->
+
+        <!--</activity>-->
+        <!--&lt;!&ndash;<activity android:name="exmaple.acadgild.com.activitylifecycle.Sqlite2.Sqlite2"></activity>&ndash;&gt;-->
+        <!--&lt;!&ndash;<activity android:name=".Sqlite2.DisplayContact"></activity>&ndash;&gt;-->
+        <!--&lt;!&ndash;&ndash;&gt;-->
+
+        <!--<activity android:name=".SQLITE_ACADGILD.Activity_Acadgild_Sqlite">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".SQLITE_ACADGILD.DisplayContacts"></activity>-->
+
+        <!--<activity android:name=".SharedPreferencesXML.Activity_SharedPreferences">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".SharedPreferencesXML.ShowActivity"></activity>-->
+        <!--<activity android:name=".SharedPreferencesXML.SettingsActivity"></activity>-->
+        <!--<activity android:name=".AsyncTask.Activity_Asynctask">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".Dialog.DialogActivity">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".Dialog.CustomDialog">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".Activity_DatePicker">-->
+
+        <!--</activity>-->
+
+        <!--<activity android:name=".ListView.ListViewExample">-->
+
+        <!--</activity>-->
+
+        <!--<activity android:name=".ListView.DynamicListViewExample">-->
+
+        <!--</activity>-->
+
+        <!--<activity android:name=".ListView.GridViewExample">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".DateTimePicker.DatePickerExample">-->
+
+        <!--</activity>-->
+        <!--<activity android:name=".DateTimePicker.TimePickerExample">-->
+
+        <!--</activity>-->
+
+        <activity android:name=".FragmentsExample.FragmentLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FragmentsExample.DetailsActivity"></activity>
+
+        <activity android:name=".ActionBar.ActionBarMainActivity"
+            >
+
+        </activity>
+
+        <activity android:name=".ContentProvider.ContentProviderExample">
+
+        </activity>
+        <provider
+            android:authorities="com.example.provider.College"
+            android:name=".ContentProvider.StudentsProvider"></provider>
+
+        <activity android:name=".ContentProviderExample.ContentProvider_ContactsRetriver">
+
+        </activity>
+        <activity android:name=".ANR.ANR">
+
+        </activity>
+
+        <activity android:name=".HandlerExample.HandlerActivity">
+
+        </activity>
+
+        <activity android:name=".AsyncTask.Activity_Asynctask">
+
+        </activity>
+
+
+
+        <receiver android:name=".BroadcastReceiversExample.MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".BroadcastReceiversExample.NotifyMessage">
+
+        </activity>
+
+        <activity android:name=".BroadcastReceiversExample.RegisterUnregister">
+
+        </activity>
+
+
+        <service android:name=".Services.Bound_Bound_Services.UnBindServices.MyUnBoundService"></service>
+        <activity android:name=".Services.Bound_Bound_Services.UnBindServices.UnBoundServicesExample">
+
+        </activity>
+
+
+        <service android:name=".Services.Bound_Bound_Services.BoundService.BoundService"></service>
+        <activity android:name=".Services.Bound_Bound_Services.BoundService.BoundServiceExample">
+
+        </activity>
+
+    </application>
+
+</manifest>

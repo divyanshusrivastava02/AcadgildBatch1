@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B">
+
+    <TextView
+        android:id="@+id/tvRed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:layout_gravity="center"
+        android:text="RED COLOR"/>
+
+
+    <TextView
+        android:id="@+id/tv_Blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:layout_gravity="center"
+        android:text="BLUE"
+        android:visibility="gone"/>
+</FrameLayout>

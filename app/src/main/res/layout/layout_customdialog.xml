@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#987777"
+    android:padding="20dip">
+    
+
+    <ImageView
+        android:layout_width="330dip"
+        android:layout_height="400dip"
+        android:alpha="0.3"
+        android:background="@drawable/home1"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="THIS IS MY CUSTOM DIALOG"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etsearch"
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip">
+        <requestFocus/>
+        </EditText>
+
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etsearch"
+        android:layout_below="@+id/etsearch"
+        android:text="CANCEL"
+        android:layout_marginRight="30dip"/>
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btncancel"
+        android:layout_alignBottom="@+id/btncancel"
+        android:layout_alignLeft="@+id/etsearch"
+        android:text="SEARCH"
+        android:layout_marginLeft="30dip"/>
+
+</RelativeLayout>

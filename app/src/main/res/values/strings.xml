@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="to">To </string>
+    <string name="subject">Subject </string>
+    <string name="message">Message  </string>
+    <string name="send">Send  </string>
+
+
+    <string name="ravi">Hello Ravi</string>
+
+    <string-array name="statesMine">
+        <item>Tamil Nadu</item>
+        <item>Kerela</item>
+        <item>Delhi</item>
+        <item>Haryana</item>
+        <item>HP</item>
+        <item>GOA</item>
+    </string-array>
+    <string name="title_activity_menu_test">MenuTest</string>
+    <string name="title_activity_option_menu_example">OptionMenuExample</string>
+    <string name="Add_New">Add New</string>
+    <string name="edit">Edit Contact</string>
+    <string name="delete">Delete Contact</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="country">City/State/Zip</string>
+    <string name="save">Save Contact</string>
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+
+
+    <string name="str_btn_settings">Settings</string>
+    <string name="str_btn_show">Show Values</string>
+
+    <string name="str_first_category_title">First Category</string>
+
+    <string name="str_cbp_checkbox_preference1_title">Checkbox Preference1</string>
+    <string name="str_cbp_checkbox_preference2_title">Checkbox Preference2</string>
+
+    <string name="str_etp_edittext_preference1_title">EditText Preference1</string>
+    <string name="str_etp_edittext_preference2_title">EditText Preference2</string>
+
+    <string name="str_second_category_title">Second Category</string>
+
+    <string name="lp_list_preference_title">List Preference</string>
+
+    <string name="rtp_ringtone_preference_title">Ringtone Preference</string>
+
+    <string name="str_third_category_title">Third Category</string>
+
+    <string name="more">More Settings      \u00A0 \u00A0 \u00A0&gt;&gt;&gt;</string>
+
+    <string-array name="array_list_preference_entries">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+    </string-array>
+
+    <string-array name="array_list_preference_entry_values">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+    </string-array>
+
+
+
+    <string-array name="list_example">
+        <item>Ashish</item>
+        <item>Ramachandra</item>
+        <item>Nawazia</item>
+        <item>Neetu</item>
+        <item>Hamza</item>
+        <item>Vallabhz</item>
+        <item>Venkatesh</item>
+        <item>Venky</item>
+
+        <item>Ashish2</item>
+        <item>Ramachandra2</item>
+        <item>Nawazia2</item>
+        <item>Neetu2</item>
+        <item>Hamza2</item>
+        <item>Vallabhz2</item>
+        <item>Venkatesh2</item>
+        <item>Venky2</item>
+
+
+        <item>Ashish3</item>
+        <item>Ramachandra3</item>
+        <item>Nawazia4</item>
+        <item>Neetu5</item>
+        <item>Hamza6</item>
+        <item>Vallabhz7</item>
+        <item>Venkatesh8</item>
+        <item>Venky9</item>
+
+
+
+        <item>Ashish</item>
+        <item>Ramachandra</item>
+        <item>Nawazia</item>
+        <item>Neetu</item>
+        <item>Hamza</item>
+        <item>Vallabhz</item>
+        <item>Venkatesh</item>
+        <item>Venky</item>
+    </string-array>
+
+
+
+
+    <string name="java_topic1">Java is a programming language and a platform.
+
+Java is a high level, robust, secured and object-oriented programming language.
+
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has its own runtime environment (JRE) and API, it is called platform.</string>
+</resources>

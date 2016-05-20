@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:infogain="http://schemas.android.com/apk/res/android">
+    <translate infogain:fromYDelta="0" infogain:toYDelta="100%p" infogain:duration="300"/>
+
+</set>
