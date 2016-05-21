@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
-
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -103,11 +103,7 @@
         <!--</activity>-->
 
         <activity android:name=".FragmentsExample.FragmentLayout">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".FragmentsExample.DetailsActivity"></activity>
 
@@ -163,6 +159,14 @@
         <service android:name=".Services.Bound_Bound_Services.BoundService.BoundService"></service>
         <activity android:name=".Services.Bound_Bound_Services.BoundService.BoundServiceExample">
 
+        </activity>
+
+        <activity android:name=".Webservices.WebserviceExample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>
